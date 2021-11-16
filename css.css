@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+#mainContainer{
+   /* display: none;*/
+    width: 100%;
+    position: absolute;
+    top: 0px;
+}
+
+
+
+#container{
+    display: flex;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+#contentA{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+}
+
+#plane{
+    position: absolute;
+    top: 1100px;
+    left: 250px;
+    width: 80vmax;
+    height: 80vmax;
+    animation-name: plane;
+    animation-timing-function: linear;
+    animation-duration: 1.8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes plane{
+    from{
+        transform: translate(0px, 0px)
+    }
+    to{
+        transform: translate(-500px, -300px)
+    }
+}
+
+
+
+#irony{
+    position: absolute;
+    left: 30%;
+    top: 33vmax;
+    color: rgb(29, 21, 21);
+    font-size: 9vmax;
+    text-align: left;
+}
+
+
+#pig{
+    position: absolute;
+    left: 60%;
+    top: 50.5vmax;
+    animation-name: pig;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1.9s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pig{
+    from{
+        transform: translate(0px, 0px)
+    }
+    to{
+        transform: translate(-100px, 0px)
+    }
+}
+
+#bye{
+    position: absolute;
+    left: 30%;
+    top: 80vmax;
+    color: rgb(29, 21, 21);
+    font-size: 5vmax;
+    text-align: left;
+    
+}
+
+#irony2{
+    position: absolute;
+    top: 135vmax;
+    left: 5%;
+    color: rgb(29, 21, 21);
+    font-size: 9.0rem;
+    }
+
+#irony3{
+    position: absolute;
+    top: 130vmax;
+    left: 13%;
+    color: rgb(29, 21, 21);
+    font-size: 9.0rem;
+    }
+
+#irony4{
+    position: absolute;
+    top: 125vmax;
+    left: 21%;
+    color: rgb(29, 21, 21);
+    font-size: 9.0rem;
+    }
+
+#irony5{
+    position: absolute;
+    top: 120vmax;
+    left: 29%;
+    color: rgb(29, 21, 21);
+    font-size: 9.0rem;
+    }
+
+#irony6{
+    position: absolute;
+    top: 115vmax;
+    left: 37%;
+    color: rgb(29, 21, 21);
+    font-size: 9.0rem;
+    }
+
+
+    
+
+
+#brain{
+    position: absolute;
+    top: 120vmax;
+    left:34%;
+    width:700px;
+    height: 700px;
+}
+
+#temperature{
+    position: absolute;
+    top: 180vmax;
+    left:70%;
+    width:500px;
+    height: 500x;
+}
+   
+#blood{
+    position: absolute;
+    top: 110vmax;
+    left:70%;
+    width:300px;
+    height: 300px;
+}
+
+    
+
+#brainwrite{
+    position: absolute;
+    top: 150vmax;
+    left:5%;
+    font-size: 1.5rem;
+}
+
+.clipPath{
+    clip-path: url(#myCircle);
+}
+
+.cls-1{
+    /*animation: circleAni 2s linear infinite;*/
+    transform-origin: 50% 50%;
+}
+
+
+
+#benefit{
+    position: absolute;
+    left: 30%;
+    top: 33vmax;
+    color: rgb(253, 253, 253);
+    font-size: 9vmax;
+    text-align: left;
+}
+
+#hi{
+    position: absolute;
+    left: 30%;
+    top: 80vmax;
+    color:  rgb(253, 253, 253);
+    font-size: 5vmax;
+    text-align: left;
+}
+
+#magaphone{
+    position: absolute;
+    left: 60%;
+    top: 51vmax;
+    
+   
+      
+}
+
+#benefit2{
+    position: absolute;
+    top: 135vmax;
+    left: 5%;
+    color: white;
+    font-size: 9.0rem;
+    }
+
+ #benefit3{
+    position: absolute;
+    top: 130vmax;
+    left: 13%;
+    color: white;
+    font-size: 9.0rem;
+    } 
+ #benefit4{
+     position: absolute;
+    top: 125vmax;
+    left: 21%;
+    color: white;
+    font-size: 9.0rem;
+        }  
+        
+#benefit5{
+    position: absolute; 
+    top: 120vmax;
+    left: 29%;
+    color: white;
+    font-size: 9.0rem;
+      }
+
+#benefit6{
+    position: absolute; 
+    top: 115vmax;
+    left: 37%;
+     color: white;
+    font-size: 9.0rem;
+     }
+
+#benefit7{
+    position: absolute; 
+    top:110vmax;
+    left: 45%;
+    color: white;
+    font-size: 9.0rem;
+    }
+
+#benefit8{
+    position: absolute; 
+    top:105vmax;
+    left: 50%;
+    color: white;
+    font-size: 9.0rem;
+     }
+    
+
+#parade{
+    position: absolute;
+    left: 70%;
+    top: 100vmax;
+     
+    
+}
+
+#gonaked{
+    position: absolute;
+    top: 160vmax;
+    left: 5%
+   
+}
+
+#hii{
+    position: absolute;
+    color: white;
+    font-size: 2.5rem;
+    left: 5%;
+    top: 190vmax;
+}
+
+
+
+
+#contentB{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    
+}
+
+#mouseTracker{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+    left: 300px;
+    top: 100px;
+}
